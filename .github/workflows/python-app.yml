@@ -34,6 +34,5 @@ jobs:
     - name: run with pyflask
       run: |
          python3 -m venv env
-         env/Scripts/activate
          set FLASK_APP=app.py
          flask run
