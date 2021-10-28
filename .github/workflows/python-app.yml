@@ -36,3 +36,6 @@ jobs:
          python3 -m venv env
          set FLASK_APP=app.py
          flask run
+ 
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag app.py
