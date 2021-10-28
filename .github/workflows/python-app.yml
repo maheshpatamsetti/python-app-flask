@@ -36,4 +36,4 @@ jobs:
          python3 -m venv venv
          source venv/bin/activate
          set FLASK=app.py
-        flask run
+         flask run
