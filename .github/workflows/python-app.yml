@@ -33,7 +33,7 @@ jobs:
         flask . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: run with pyflask
       run: |
-         python3.10.0 -m venv env
+         python3 -m venv env
          set FLASK_APP=app.py
          flask run
  
