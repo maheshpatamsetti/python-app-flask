@@ -41,6 +41,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: maheshpatamsetti/flaskapp:latest
+          tags: maheshpatamsetti/flaskapp1:latest
  
    
