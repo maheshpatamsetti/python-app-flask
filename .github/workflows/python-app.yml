@@ -34,7 +34,7 @@ jobs:
     - name: run with pyflask
       run: |
         
-         python3.10.0 -m venv env
+         sh 'python3.10.0 -m venv env'
          source env\scripts\activate
          set FLASK_APP=app.py
          flask run
